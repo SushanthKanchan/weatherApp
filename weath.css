@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#inf {
+     background: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)), url('./img/bg.jpg'); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.desc {
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    padding: 20px 50px;
+    position: relative;
+    top: 50px;
+    background-color: rgba(0, 0, 0, 0.336);
+    box-shadow: 10px 20px 14px white,-10px -20px 14px white;;
+
+
+}
+
+.desc1 {
+    background-color: transparent;
+
+}
+
+
+#inp input{
+    
+    background-color: rgba(0, 0, 0, 0.46);
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 15px;
+    padding: 10px 100px;
+    border-radius: 9px;
+    color: white;
+}
+.rainy {
+    border: 2px solid black;
+    height: 50%;
+    width: 600px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.347);
+    color: white;
+    padding-bottom: 40px;
+    
+
+}
+.button {
+    display:flex;
+justify-content: center;
+
+
+}
+.button button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 20px;
+}
+#no {
+    padding-top: 20px;
+    font-size: 40px;
+    padding: auto;
+}
+
+#no sup {
+    font-size: 20px;
+}
+
+#cityCountry {
+    padding: 45px;
+    color: whitesmoke;
+
+}
+
+.sum {
+    font-size: 5px;
+}
+
+.pre {
+    display: flex;
+    color: white;
+
+    justify-content: center;
+
+}
+
+.box1 {
+    margin: 15px 10px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.box2 {
+   
+    margin: 15px 20px;
+    border: 2px solid black;
+    text-align: center;
+   height: 80px;
+  padding: 0px 50px ;
+   
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.box3 {
+    padding: 10px 10px;
+    margin: 20px 10px;
+    border: 2px solid black;
+    text-align: center;
+    height: 90px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.564);
+    
+}
+
+.box4 {
+    margin: 20px 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 28px 17px;
+    background-color: rgba(0, 0, 0, 0.564);
+    border-radius: 8px;
+}
